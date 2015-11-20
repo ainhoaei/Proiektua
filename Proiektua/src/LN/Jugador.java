@@ -9,5 +9,22 @@ public class Jugador {
 		nombre = this.nombre;
 		numJug = this.numJug;
 	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public int getNumJug() {
+		return numJug;
+	}
+
+	public void setNumJug(int numJug) {
+		this.numJug = numJug;
+	}
+	
 	
 }

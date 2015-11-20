@@ -2,10 +2,19 @@ package LN;
 
 public class Usuario extends Jugador{
 	
-	String contraseña;
+	String contrasenya;
 
-	public Usuario(String nombre, int numJug, String contraseña){
+	public Usuario(int numJug, String nombre, String contrasenya){
 		super(nombre, numJug);
-		contraseña = this.contraseña;
+		contrasenya = this.contrasenya;
 	}
+
+	public String getContrasenya() {
+		return contrasenya;
+	}
+
+	public void setContrasenya(String contrasenya) {
+		this.contrasenya = contrasenya;
+	}
+	
 }
