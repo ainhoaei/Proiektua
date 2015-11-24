@@ -1,6 +1,7 @@
+
 import java.awt.EventQueue;
 
-import LP.logIn;
+import LP.LogIn;
 import LP.principio;
 
 
